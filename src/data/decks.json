@@ -258,17 +258,17 @@
     "needsReview": false
   },
   {
-    "slug": "fumiko-kokura-final-project",
-    "title": "Fumiko Kokura — Final Project",
-    "company": null,
+    "slug": "fumi-final-project",
+    "title": "fumi-final-project",
+    "company": "Elder Care in Japan",
     "students": [
       "Fumiko Kokura"
     ],
-    "industry": "elderly care",
+    "industry": "elder care",
     "tagline": null,
     "type": "pdf",
-    "file": "/decks/fumiko-kokura-final-project.pdf",
-    "thumb": "/thumbs/fumiko-kokura-final-project.jpg",
+    "file": "/decks/fumi-final-project.pdf",
+    "thumb": "/thumbs/fumi-final-project.jpg",
     "pages": 17,
     "sizeMB": 5.1,
     "sourceSizeMB": 14.8,
