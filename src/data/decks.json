@@ -298,7 +298,8 @@
     "title": "Konotori",
     "company": "Konotori",
     "students": [
-      "Mirna Tejeda Marin"
+      "Mirna Tejeda Marin",
+      "Megumi Goto"
     ],
     "industry": null,
     "tagline": null,
@@ -309,7 +310,7 @@
     "sizeMB": 7.4,
     "sourceSizeMB": 26,
     "sourceFilename": "tejedamarinmirna_LATE_4506135_66453641_Konotori.mp4",
-    "needsReview": true
+    "needsReview": false
   },
   {
     "slug": "healthd8-heidi-krezia",

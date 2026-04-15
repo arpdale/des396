@@ -127,8 +127,7 @@ const META_OVERRIDES = {
   // No thumbnail — filename-inferred, flagged for review.
   'tejedamarinmirna_LATE_4506135_66453641_Konotori.mp4': {
     company: 'Konotori',
-    students: ['Mirna Tejeda Marin'],
-    needsReview: true,
+    students: ['Mirna Tejeda Marin', 'Megumi Goto'],
   },
 }
 const GS_EBOOK = ['-dPDFSETTINGS=/ebook']
