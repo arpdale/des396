@@ -21,7 +21,10 @@ const MANIFEST = join(repoRoot, 'src/data/decks.json')
 const MAX_OK_MB = 50
 
 // Source files to skip (superseded by a newer/cleaner version in the same dir).
-const SKIP = new Set(['a2_0422 Fumiko Kokura business.pdf'])
+const SKIP = new Set([
+  'a2_0422 Fumiko Kokura business.pdf',
+  'a1_highfieldsabrina_4658434_84523076_Final_ThriveClinic.pptx',
+])
 
 // Rich metadata overrides keyed by source filename. Sourced from Gemini
 // vision extraction on the page-1 thumbnails (and filename heuristics for
@@ -117,12 +120,11 @@ const META_OVERRIDES = {
     industry: 'emergency response',
     tagline: 'Your first response when it matters most',
   },
-  // No thumbnail — filename-inferred, flagged for review.
-  'a1_highfieldsabrina_4658434_84523076_Final_ThriveClinic.pptx': {
+  'a1_highfieldsabrina_4658434_84523076_Final_ThriveClinic.pdf': {
     company: 'ThriveClinic',
     students: ['Sabrina Highfield'],
-    needsReview: true,
   },
+  // No thumbnail — filename-inferred, flagged for review.
   'tejedamarinmirna_LATE_4506135_66453641_Konotori.mp4': {
     company: 'Konotori',
     students: ['Mirna Tejeda Marin'],

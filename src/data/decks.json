@@ -119,14 +119,14 @@
     ],
     "industry": null,
     "tagline": null,
-    "type": "pptx",
-    "file": "/decks/final-thriveclinic.pptx",
-    "thumb": null,
-    "pages": null,
-    "sizeMB": 4.8,
-    "sourceSizeMB": 4.8,
-    "sourceFilename": "a1_highfieldsabrina_4658434_84523076_Final_ThriveClinic.pptx",
-    "needsReview": true
+    "type": "pdf",
+    "file": "/decks/final-thriveclinic.pdf",
+    "thumb": "/thumbs/final-thriveclinic.jpg",
+    "pages": 20,
+    "sizeMB": 0.6,
+    "sourceSizeMB": 4.5,
+    "sourceFilename": "a1_highfieldsabrina_4658434_84523076_Final_ThriveClinic.pdf",
+    "needsReview": false
   },
   {
     "slug": "afterwords-pitch-deck-presentation",
