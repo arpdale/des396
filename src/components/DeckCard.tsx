@@ -60,11 +60,6 @@ export function DeckCard({ deck }: { deck: Deck }) {
         {students && (
           <p className="text-sm text-zinc-700 dark:text-zinc-300">{students}</p>
         )}
-        {deck.tagline && (
-          <p className="line-clamp-2 text-xs italic text-zinc-500 dark:text-zinc-400">
-            {deck.tagline}
-          </p>
-        )}
         <p className="mt-auto pt-2 text-xs text-zinc-500 dark:text-zinc-500">
           {deck.pages ? `${deck.pages} pages · ` : ''}
           {deck.sizeMB} MB
