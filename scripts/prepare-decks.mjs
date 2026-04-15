@@ -337,6 +337,10 @@ for (const name of sources) {
     if (isStale(outPath, thumbPath)) renderThumb(outPath, thumbPath)
     thumb = `/thumbs/${slug}.jpg`
     pages = pdfPageCount(outPath)
+  } else {
+    // Non-PDF: pick up a manually-dropped thumb if one exists.
+    const thumbPath = join(OUT_THUMBS, `${slug}.jpg`)
+    if (existsSync(thumbPath)) thumb = `/thumbs/${slug}.jpg`
   }
 
   manifest.push({
