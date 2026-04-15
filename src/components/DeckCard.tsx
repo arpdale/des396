@@ -13,10 +13,11 @@ const typeTint: Record<Deck['type'], string> = {
 }
 
 function formatStudents(students: string[]): string {
-  if (students.length === 0) return ''
-  if (students.length === 1) return students[0]
-  if (students.length === 2) return students.join(' & ')
-  return students.slice(0, -1).join(', ') + ' & ' + students[students.length - 1]
+  const firsts = students.map((s) => s.trim().split(/\s+/)[0])
+  if (firsts.length === 0) return ''
+  if (firsts.length === 1) return firsts[0]
+  if (firsts.length === 2) return firsts.join(' & ')
+  return firsts.slice(0, -1).join(', ') + ' & ' + firsts[firsts.length - 1]
 }
 
 export function DeckCard({ deck }: { deck: Deck }) {
