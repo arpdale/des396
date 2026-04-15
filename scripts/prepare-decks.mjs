@@ -54,7 +54,7 @@ const META_OVERRIDES = {
   },
   'CAP Consulting.pdf': {
     company: 'CAP Consulting',
-    students: [],
+    students: ['Claire Moreau'],
     industry: 'student athlete consulting',
     tagline: 'A cap that is tailor-made for you',
   },
@@ -70,7 +70,7 @@ const META_OVERRIDES = {
   },
   'flashclub.pdf': {
     company: 'flashclub',
-    students: [],
+    students: ['Whitney Arostegui'],
     industry: 'menopause support',
     tagline: 'An online support platform for anyone experiencing menopause',
   },

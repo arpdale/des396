@@ -22,7 +22,9 @@
     "slug": "cap-consulting",
     "title": "CAP Consulting",
     "company": "CAP Consulting",
-    "students": [],
+    "students": [
+      "Claire Moreau"
+    ],
     "industry": "student athlete consulting",
     "tagline": "A cap that is tailor-made for you",
     "type": "pdf",
@@ -241,7 +243,9 @@
     "slug": "flashclub",
     "title": "flashclub",
     "company": "flashclub",
-    "students": [],
+    "students": [
+      "Whitney Arostegui"
+    ],
     "industry": "menopause support",
     "tagline": "An online support platform for anyone experiencing menopause",
     "type": "pdf",
