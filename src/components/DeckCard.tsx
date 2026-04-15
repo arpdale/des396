@@ -48,7 +48,7 @@ export function DeckCard({ deck }: { deck: Deck }) {
         >
           {typeLabel[deck.type]}
         </span>
-        {deck.industry && (
+        {false && deck.industry && (
           <span className="absolute right-2 top-2 rounded-full bg-zinc-900/75 px-2 py-0.5 text-xs font-medium text-white backdrop-blur">
             {deck.industry}
           </span>
