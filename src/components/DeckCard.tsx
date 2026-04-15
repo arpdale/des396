@@ -12,7 +12,16 @@ const typeTint: Record<Deck['type'], string> = {
   pptx: 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200',
 }
 
+function formatStudents(students: string[]): string {
+  if (students.length === 0) return ''
+  if (students.length === 1) return students[0]
+  if (students.length === 2) return students.join(' & ')
+  return students.slice(0, -1).join(', ') + ' & ' + students[students.length - 1]
+}
+
 export function DeckCard({ deck }: { deck: Deck }) {
+  const heading = deck.company ?? deck.title
+  const students = formatStudents(deck.students)
   return (
     <a
       href={deck.file}
@@ -38,13 +47,23 @@ export function DeckCard({ deck }: { deck: Deck }) {
         >
           {typeLabel[deck.type]}
         </span>
+        {deck.industry && (
+          <span className="absolute right-2 top-2 rounded-full bg-zinc-900/75 px-2 py-0.5 text-xs font-medium text-white backdrop-blur">
+            {deck.industry}
+          </span>
+        )}
       </div>
       <div className="flex flex-1 flex-col gap-1 p-3">
-        <h3 className="line-clamp-2 text-sm font-semibold text-zinc-900 dark:text-zinc-50">
-          {deck.title}
+        <h3 className="line-clamp-2 text-base font-bold text-zinc-900 dark:text-zinc-50">
+          {heading}
         </h3>
-        {deck.students && (
-          <p className="text-xs text-zinc-600 dark:text-zinc-400">{deck.students}</p>
+        {students && (
+          <p className="text-sm text-zinc-700 dark:text-zinc-300">{students}</p>
+        )}
+        {deck.tagline && (
+          <p className="line-clamp-2 text-xs italic text-zinc-500 dark:text-zinc-400">
+            {deck.tagline}
+          </p>
         )}
         <p className="mt-auto pt-2 text-xs text-zinc-500 dark:text-zinc-500">
           {deck.pages ? `${deck.pages} pages · ` : ''}

@@ -2,217 +2,328 @@
   {
     "slug": "business-final-pitch-deck",
     "title": "Business Final Pitch Deck",
-    "students": "Ayesha & Iya",
+    "company": "GoodDays Clinics",
+    "students": [
+      "Iya Abdulkarim",
+      "Ayesha Rahman"
+    ],
+    "industry": "healthcare clinics",
+    "tagline": null,
     "type": "pdf",
     "file": "/decks/business-final-pitch-deck.pdf",
     "thumb": "/thumbs/business-final-pitch-deck.jpg",
     "pages": 25,
     "sizeMB": 3.2,
     "sourceSizeMB": 9.7,
-    "sourceFilename": "Business Final Pitch Deck - Ayesha & Iya.pdf"
+    "sourceFilename": "Business Final Pitch Deck - Ayesha & Iya.pdf",
+    "needsReview": false
   },
   {
     "slug": "cap-consulting",
     "title": "CAP Consulting",
-    "students": "",
+    "company": "CAP Consulting",
+    "students": [],
+    "industry": "student athlete consulting",
+    "tagline": "A cap that is tailor-made for you",
     "type": "pdf",
     "file": "/decks/cap-consulting.pdf",
     "thumb": "/thumbs/cap-consulting.jpg",
     "pages": 14,
     "sizeMB": 2.5,
     "sourceSizeMB": 9.2,
-    "sourceFilename": "CAP Consulting.pdf"
+    "sourceFilename": "CAP Consulting.pdf",
+    "needsReview": false
   },
   {
     "slug": "hearing-health-clinic",
     "title": "Hearing Health Clinic",
-    "students": "",
+    "company": "HereHear",
+    "students": [
+      "Evan Stack",
+      "Sanjana Nagaraja"
+    ],
+    "industry": "hearing health",
+    "tagline": null,
     "type": "pdf",
     "file": "/decks/hearing-health-clinic.pdf",
     "thumb": "/thumbs/hearing-health-clinic.jpg",
     "pages": 15,
     "sizeMB": 1,
     "sourceSizeMB": 3.1,
-    "sourceFilename": "Hearing Health Clinic.pdf"
+    "sourceFilename": "Hearing Health Clinic.pdf",
+    "needsReview": false
   },
   {
     "slug": "kinards-wellnessworks-business-final",
     "title": "Kinards_WellnessWorks_Business Final",
-    "students": "",
+    "company": "WellnessWorks",
+    "students": [
+      "Samantha Kinard"
+    ],
+    "industry": "teacher wellness",
+    "tagline": "Prioritizing the Mental Health of Middle School Teachers",
     "type": "pdf",
     "file": "/decks/kinards-wellnessworks-business-final.pdf",
     "thumb": "/thumbs/kinards-wellnessworks-business-final.jpg",
     "pages": 18,
     "sizeMB": 2.3,
     "sourceSizeMB": 5.2,
-    "sourceFilename": "Kinards_WellnessWorks_Business Final.pdf"
+    "sourceFilename": "Kinards_WellnessWorks_Business Final.pdf",
+    "needsReview": false
   },
   {
     "slug": "mypo-jewel",
     "title": "MyPO-jewel",
-    "students": "",
+    "company": "MyPO",
+    "students": [
+      "Jewel Thompson-Adiuku"
+    ],
+    "industry": "healthcare",
+    "tagline": "Ontario Patient Portal",
     "type": "pdf",
     "file": "/decks/mypo-jewel.pdf",
     "thumb": "/thumbs/mypo-jewel.jpg",
     "pages": 15,
     "sizeMB": 3.4,
     "sourceSizeMB": 5.3,
-    "sourceFilename": "MyPO-jewel.pdf"
+    "sourceFilename": "MyPO-jewel.pdf",
+    "needsReview": false
   },
   {
     "slug": "north-star",
     "title": "North Star",
-    "students": "",
+    "company": "North Star",
+    "students": [
+      "Sandra Bradley",
+      "Mara Fock"
+    ],
+    "industry": "wayfinding",
+    "tagline": "A wayfinding tool for everyone",
     "type": "pdf",
     "file": "/decks/north-star.pdf",
     "thumb": "/thumbs/north-star.jpg",
     "pages": 19,
     "sizeMB": 3.3,
     "sourceSizeMB": 22.8,
-    "sourceFilename": "North Star.pdf"
+    "sourceFilename": "North Star.pdf",
+    "needsReview": false
   },
   {
     "slug": "final-thriveclinic",
     "title": "Final ThriveClinic",
-    "students": "Highfieldsabrina",
+    "company": "ThriveClinic",
+    "students": [
+      "Sabrina Highfield"
+    ],
+    "industry": null,
+    "tagline": null,
     "type": "pptx",
     "file": "/decks/final-thriveclinic.pptx",
     "thumb": null,
     "pages": null,
     "sizeMB": 4.8,
     "sourceSizeMB": 4.8,
-    "sourceFilename": "a1_highfieldsabrina_4658434_84523076_Final_ThriveClinic.pptx"
+    "sourceFilename": "a1_highfieldsabrina_4658434_84523076_Final_ThriveClinic.pptx",
+    "needsReview": true
   },
   {
     "slug": "afterwords-pitch-deck-presentation",
     "title": "AfterWords Pitch Deck Presentation",
-    "students": "Limnatalie",
+    "company": "AfterWords",
+    "students": [
+      "Mariam Ahmed",
+      "Natalie Lim"
+    ],
+    "industry": null,
+    "tagline": "Understand More. Worry Less.",
     "type": "pdf",
     "file": "/decks/afterwords-pitch-deck-presentation.pdf",
     "thumb": "/thumbs/afterwords-pitch-deck-presentation.jpg",
     "pages": 19,
     "sizeMB": 0.4,
     "sourceSizeMB": 2.2,
-    "sourceFilename": "a3_limnatalie_LATE_4227445_84633104_AfterWords Pitch Deck Presentation.pdf"
+    "sourceFilename": "a3_limnatalie_LATE_4227445_84633104_AfterWords Pitch Deck Presentation.pdf",
+    "needsReview": false
   },
   {
     "slug": "pink-and-black-gradient-technology-keynote-presentation",
     "title": "Pink and Black Gradient Technology Keynote Presentation",
-    "students": "Riverarodger",
+    "company": "AidNow",
+    "students": [
+      "Rodger Rivera"
+    ],
+    "industry": "emergency response",
+    "tagline": "Your first response when it matters most",
     "type": "pdf",
     "file": "/decks/pink-and-black-gradient-technology-keynote-presentation.pdf",
     "thumb": "/thumbs/pink-and-black-gradient-technology-keynote-presentation.jpg",
     "pages": 21,
     "sizeMB": 1.1,
     "sourceSizeMB": 3.7,
-    "sourceFilename": "b1_riverarodger_LATE_4344779_84625108_Pink and Black Gradient Technology Keynote Presentation.pdf"
+    "sourceFilename": "b1_riverarodger_LATE_4344779_84625108_Pink and Black Gradient Technology Keynote Presentation.pdf",
+    "needsReview": false
   },
   {
     "slug": "hear-for-you-presentation-business-of-design",
     "title": "Hear For You Presentation - Business of Design",
-    "students": "Trangserena",
+    "company": "Hear For You",
+    "students": [
+      "Serena Trang",
+      "Mili Dhru"
+    ],
+    "industry": "hearing health",
+    "tagline": null,
     "type": "pdf",
     "file": "/decks/hear-for-you-presentation-business-of-design.pdf",
     "thumb": "/thumbs/hear-for-you-presentation-business-of-design.jpg",
     "pages": 28,
     "sizeMB": 1.6,
     "sourceSizeMB": 15.4,
-    "sourceFilename": "b2_trangserena_LATE_4683107_84600456_Hear For You Presentation - Business of Design.pdf"
+    "sourceFilename": "b2_trangserena_LATE_4683107_84600456_Hear For You Presentation - Business of Design.pdf",
+    "needsReview": false
   },
   {
     "slug": "business-pitch",
     "title": "Business Pitch",
-    "students": "Agathavalencia",
+    "company": "Globowl",
+    "students": [
+      "Agatha Valencia"
+    ],
+    "industry": "food",
+    "tagline": "Lunches of the future",
     "type": "pdf",
     "file": "/decks/business-pitch.pdf",
     "thumb": "/thumbs/business-pitch.jpg",
     "pages": 31,
     "sizeMB": 3.8,
     "sourceSizeMB": 48.1,
-    "sourceFilename": "c1_agathavalencia_LATE_4687305_84604763_Business Pitch.pdf"
+    "sourceFilename": "c1_agathavalencia_LATE_4687305_84604763_Business Pitch.pdf",
+    "needsReview": false
   },
   {
     "slug": "capta",
     "title": "CAPTA",
-    "students": "Echevarrialopezmiriam",
+    "company": "CAPTA",
+    "students": [
+      "Miriam Echevarria Lopez"
+    ],
+    "industry": "assistive tech",
+    "tagline": "Turning Challenges into Opportunities",
     "type": "pdf",
     "file": "/decks/capta.pdf",
     "thumb": "/thumbs/capta.jpg",
     "pages": 31,
     "sizeMB": 2.8,
     "sourceSizeMB": 12,
-    "sourceFilename": "c2_echevarrialopezmiriam_LATE_4685006_84632900_CAPTA.pdf"
+    "sourceFilename": "c2_echevarrialopezmiriam_LATE_4685006_84632900_CAPTA.pdf",
+    "needsReview": false
   },
   {
     "slug": "docent-scherger-morris",
     "title": "Docent Scherger Morris",
-    "students": "Schergerleslie",
+    "company": "Docent",
+    "students": [
+      "Leia Morris",
+      "Leslie Scherger"
+    ],
+    "industry": null,
+    "tagline": null,
     "type": "pdf",
     "file": "/decks/docent-scherger-morris.pdf",
     "thumb": "/thumbs/docent-scherger-morris.jpg",
     "pages": 23,
     "sizeMB": 2.4,
     "sourceSizeMB": 31.5,
-    "sourceFilename": "c3_schergerleslie_LATE_4099866_84634069_Docent_Scherger_Morris.pdf"
+    "sourceFilename": "c3_schergerleslie_LATE_4099866_84634069_Docent_Scherger_Morris.pdf",
+    "needsReview": false
   },
   {
     "slug": "flashclub",
     "title": "flashclub",
-    "students": "",
+    "company": "flashclub",
+    "students": [],
+    "industry": "menopause support",
+    "tagline": "An online support platform for anyone experiencing menopause",
     "type": "pdf",
     "file": "/decks/flashclub.pdf",
     "thumb": "/thumbs/flashclub.jpg",
     "pages": 15,
     "sizeMB": 3.6,
     "sourceSizeMB": 23.4,
-    "sourceFilename": "flashclub.pdf"
+    "sourceFilename": "flashclub.pdf",
+    "needsReview": false
   },
   {
     "slug": "fumiko-kokura-final-project",
     "title": "Fumiko Kokura — Final Project",
-    "students": "Fumiko Kokura",
+    "company": null,
+    "students": [
+      "Fumiko Kokura"
+    ],
+    "industry": "elderly care",
+    "tagline": null,
     "type": "pdf",
     "file": "/decks/fumiko-kokura-final-project.pdf",
     "thumb": "/thumbs/fumiko-kokura-final-project.jpg",
     "pages": 17,
     "sizeMB": 5.1,
     "sourceSizeMB": 14.8,
-    "sourceFilename": "fumi-final-project.pdf"
+    "sourceFilename": "fumi-final-project.pdf",
+    "needsReview": false
   },
   {
     "slug": "business-design-pitch",
     "title": "Business Design Pitch",
-    "students": "Mallickshariq",
+    "company": "Beyond Health",
+    "students": [
+      "Shariq Mallick"
+    ],
+    "industry": "preventative healthcare",
+    "tagline": "Keeping people from becoming patients",
     "type": "pdf",
     "file": "/decks/business-design-pitch.pdf",
     "thumb": "/thumbs/business-design-pitch.jpg",
     "pages": 14,
     "sizeMB": 0.4,
     "sourceSizeMB": 0.6,
-    "sourceFilename": "mallickshariq_4183661_66447655_Business Design Pitch.pdf"
+    "sourceFilename": "mallickshariq_4183661_66447655_Business Design Pitch.pdf",
+    "needsReview": false
   },
   {
     "slug": "konotori",
     "title": "Konotori",
-    "students": "Tejedamarinmirna",
+    "company": "Konotori",
+    "students": [
+      "Mirna Tejeda Marin"
+    ],
+    "industry": null,
+    "tagline": null,
     "type": "video",
     "file": "/decks/konotori.mp4",
     "thumb": null,
     "pages": null,
     "sizeMB": 7.4,
     "sourceSizeMB": 26,
-    "sourceFilename": "tejedamarinmirna_LATE_4506135_66453641_Konotori.mp4"
+    "sourceFilename": "tejedamarinmirna_LATE_4506135_66453641_Konotori.mp4",
+    "needsReview": true
   },
   {
     "slug": "healthd8-heidi-krezia",
     "title": "Healthd8 - Heidi & Krezia",
-    "students": "Wardheidi",
+    "company": "Healthd8",
+    "students": [
+      "Krezia Savella",
+      "Heidi Ward"
+    ],
+    "industry": null,
+    "tagline": null,
     "type": "pdf",
     "file": "/decks/healthd8-heidi-krezia.pdf",
     "thumb": "/thumbs/healthd8-heidi-krezia.jpg",
     "pages": 18,
     "sizeMB": 3.9,
     "sourceSizeMB": 9.7,
-    "sourceFilename": "wardheidi_LATE_4478406_66470679_Healthd8 - Heidi & Krezia.pdf"
+    "sourceFilename": "wardheidi_LATE_4478406_66470679_Healthd8 - Heidi & Krezia.pdf",
+    "needsReview": false
   }
 ]
