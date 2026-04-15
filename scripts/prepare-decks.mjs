@@ -78,7 +78,7 @@ const META_OVERRIDES = {
     tagline: 'An online support platform for anyone experiencing menopause',
   },
   'fumi-final-project.pdf': {
-    company: 'Elder Care in Japan',
+    company: 'Care in Japan',
     students: ['Fumiko Kokura'],
     industry: 'elder care',
   },
