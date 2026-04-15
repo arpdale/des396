@@ -22,15 +22,21 @@ function App() {
     let list = decks.filter((d) => {
       if (typeFilter !== 'all' && d.type !== typeFilter) return false
       if (!q) return true
-      return (
-        d.title.toLowerCase().includes(q) ||
-        d.students.toLowerCase().includes(q)
-      )
+      const hay = [
+        d.title,
+        d.company ?? '',
+        d.industry ?? '',
+        d.tagline ?? '',
+        ...d.students,
+      ]
+        .join(' ')
+        .toLowerCase()
+      return hay.includes(q)
     })
     list = [...list].sort((a, b) => {
       if (sort === 'pages') return (b.pages ?? 0) - (a.pages ?? 0)
       if (sort === 'size') return b.sizeMB - a.sizeMB
-      return a.title.localeCompare(b.title)
+      return (a.company ?? a.title).localeCompare(b.company ?? b.title)
     })
     return list
   }, [query, typeFilter, sort])
