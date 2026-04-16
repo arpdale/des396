@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
       <header className="border-b border-zinc-200 bg-white/80 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/80">
-        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+        <div className="mx-auto w-full max-w-[1536px] px-4 py-8 sm:px-6 sm:py-12 lg:px-8 xl:px-12">
           <p className="text-xs font-semibold uppercase tracking-wider text-purple-600 dark:text-purple-400">
             DES 396 · The Value of Design in Business
           </p>
@@ -59,7 +59,7 @@ function App() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
+      <main className="mx-auto w-full max-w-[1536px] px-4 py-6 sm:px-6 sm:py-8 lg:px-8 xl:px-12">
         <div className="mb-6">
           <FilterBar
             query={query}
@@ -77,7 +77,7 @@ function App() {
             No decks match that search.
           </p>
         ) : (
-          <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {filtered.map((d) => (
               <li key={d.slug}>
                 <DeckCard deck={d} />
@@ -87,7 +87,7 @@ function App() {
         )}
       </main>
 
-      <footer className="mx-auto max-w-6xl px-4 pb-10 pt-4 text-center text-xs text-zinc-500 sm:px-6">
+      <footer className="mx-auto w-full max-w-[1536px] px-4 pb-10 pt-4 text-center text-xs text-zinc-500 sm:px-6 lg:px-8 xl:px-12">
         {decks.length} projects archived · click any card to open the deck
       </footer>
     </div>

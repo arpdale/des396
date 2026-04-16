@@ -258,17 +258,17 @@
     "needsReview": false
   },
   {
-    "slug": "fumiko-kokura-final-project",
-    "title": "Fumiko Kokura — Final Project",
-    "company": null,
+    "slug": "fumi-final-project",
+    "title": "fumi-final-project",
+    "company": "Care in Japan",
     "students": [
       "Fumiko Kokura"
     ],
-    "industry": "elderly care",
+    "industry": "elder care",
     "tagline": null,
     "type": "pdf",
-    "file": "/decks/fumiko-kokura-final-project.pdf",
-    "thumb": "/thumbs/fumiko-kokura-final-project.jpg",
+    "file": "/decks/fumi-final-project.pdf",
+    "thumb": "/thumbs/fumi-final-project.jpg",
     "pages": 17,
     "sizeMB": 5.1,
     "sourceSizeMB": 14.8,
@@ -298,18 +298,19 @@
     "title": "Konotori",
     "company": "Konotori",
     "students": [
-      "Mirna Tejeda Marin"
+      "Mirna Tejeda Marin",
+      "Megumi Goto"
     ],
     "industry": null,
     "tagline": null,
     "type": "video",
     "file": "/decks/konotori.mp4",
-    "thumb": null,
+    "thumb": "/thumbs/konotori.jpg",
     "pages": null,
     "sizeMB": 7.4,
     "sourceSizeMB": 26,
     "sourceFilename": "tejedamarinmirna_LATE_4506135_66453641_Konotori.mp4",
-    "needsReview": true
+    "needsReview": false
   },
   {
     "slug": "healthd8-heidi-krezia",

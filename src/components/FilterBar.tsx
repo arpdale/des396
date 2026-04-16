@@ -10,7 +10,7 @@ interface Props {
   counts: Record<DeckType | 'all', number>
 }
 
-const types: Array<DeckType | 'all'> = ['all', 'pdf', 'video', 'pptx']
+const types: Array<DeckType | 'all'> = ['all', 'pdf', 'video']
 const typeLabel: Record<DeckType | 'all', string> = {
   all: 'All',
   pdf: 'PDFs',

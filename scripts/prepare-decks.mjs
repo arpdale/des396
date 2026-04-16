@@ -78,9 +78,9 @@ const META_OVERRIDES = {
     tagline: 'An online support platform for anyone experiencing menopause',
   },
   'fumi-final-project.pdf': {
-    title: 'Fumiko Kokura — Final Project',
+    company: 'Care in Japan',
     students: ['Fumiko Kokura'],
-    industry: 'elderly care',
+    industry: 'elder care',
   },
   'wardheidi_LATE_4478406_66470679_Healthd8 - Heidi & Krezia.pdf': {
     company: 'Healthd8',
@@ -127,8 +127,7 @@ const META_OVERRIDES = {
   // No thumbnail — filename-inferred, flagged for review.
   'tejedamarinmirna_LATE_4506135_66453641_Konotori.mp4': {
     company: 'Konotori',
-    students: ['Mirna Tejeda Marin'],
-    needsReview: true,
+    students: ['Mirna Tejeda Marin', 'Megumi Goto'],
   },
 }
 const GS_EBOOK = ['-dPDFSETTINGS=/ebook']
@@ -337,6 +336,10 @@ for (const name of sources) {
     if (isStale(outPath, thumbPath)) renderThumb(outPath, thumbPath)
     thumb = `/thumbs/${slug}.jpg`
     pages = pdfPageCount(outPath)
+  } else {
+    // Non-PDF: pick up a manually-dropped thumb if one exists.
+    const thumbPath = join(OUT_THUMBS, `${slug}.jpg`)
+    if (existsSync(thumbPath)) thumb = `/thumbs/${slug}.jpg`
   }
 
   manifest.push({
