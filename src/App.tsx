@@ -77,7 +77,7 @@ function App() {
             No decks match that search.
           </p>
         ) : (
-          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
             {filtered.map((d) => (
               <li key={d.slug}>
                 <DeckCard deck={d} />
